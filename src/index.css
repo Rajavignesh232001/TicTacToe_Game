@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+.bg-container{
+    background-image: url('/TicTacToe_img.jpg');
+    background-position: center;
+}
+.title{
+    border: 2px solid black;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.play-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.play-btn{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    font-size: 80px;
+    cursor: pointer;
+}
